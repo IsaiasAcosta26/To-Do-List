@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+#To-Do List
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p>
+Algunos de los temas que vimos:
+</p>
 
-## Available Scripts
+- Creación de una lista de tareas (todo list) donde los usuarios pueden agregar nuevas tareas.
+- Cada tarea tiene un título y un contenido.
+- Las tareas se almacenan en una base de datos de Firebase.
+- Las tareas se muestran en pantalla en forma de lista.
+- Los usuarios pueden eliminar tareas existentes de la lista.
+- Los usuarios pueden marcar una tarea como completada o pendiente.
+- Los usuarios pueden editar el título o el contenido de una tarea existente.
+- Este proyecto básico de lista de tareas utiliza tecnologías como React, Firebase Realtime Database y estilos CSS para la interfaz de usuario.
 
-In the project directory, you can run:
+**Entre otros**
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+###Para inicializar un proyecto ya creado y subido a GitHub
+<p>
+Clona el repositorio: En tu terminal, navega al directorio donde deseas clonar el repositorio y ejecuta el siguiente comando:
+</p>
 
-### `npm test`
+```
+git clone <https://github.com/IsaiasAcosta26/To-Do-List.git>
+```
+<p>
+Instala las dependencias: Navega al directorio del proyecto clonado y ejecuta el siguiente comando para instalar las dependencias necesarias:
+</p>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+npm install react react-dom react-redux redux redux-thunk firebase react-router-dom --save
+```
+<p>
+Configura Firebase: Crea un archivo llamado firebaseConfig.js en una carpeta llamada firebase en la raíz del proyecto. Copia y pega la configuración de Firebase en ese archivo.
+</p>
 
-### `npm run build`
+<p>
+Inicia el servidor de desarrollo: Ejecuta el siguiente comando para iniciar el servidor de desarrollo:
+</p>
+```
+npm start
+```
+<p>
+Esto iniciará la aplicación React y podrás acceder a ella en tu navegador en la dirección http://localhost:3000.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Con estos pasos, deberías poder inicializar y ejecutar el proyecto en tu entorno local. Asegúrate de tener instalado Node.js y npm antes de comenzar.
+</p>
