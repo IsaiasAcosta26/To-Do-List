@@ -1,0 +1,85 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #141d27;
+  color: #fff; /* Texto blanco */
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Estilos para el componente TodoItem */
+.todo-item {
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #384661; 
+  border-radius: 4px;
+  box-shadow: -9px 5px 4px 0px rgba(0, 0, 0, 0.1);
+}
+
+.todo-item h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.todo-item p {
+  margin-bottom: 10px;
+}
+
+.todo-item input[type="text"],
+.todo-item input[type="date"] {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  background-color: #eceff1; 
+  border: none;
+  border-radius: 4px;
+}
+
+.todo-item button {
+  padding: 5px 10px;
+  margin: 5px;
+  background-color: #1b3cf7;;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.todo-item button:hover {
+  background-color: #0b329e;
+}
+
+/* Estilos para el componente TodoForm */
+.todo-form {
+  margin-bottom: 20px;
+}
+
+.todo-form input[type="text"],
+.todo-form input[type="date"] {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  background-color: #cfddf7;
+  border: none;
+  border-radius: 4px;
+}
+
+.todo-form button {
+  padding: 5px 10px;
+  background-color: #1b3cf7;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.todo-form button:hover {
+  background-color: #0b329e;
+}
